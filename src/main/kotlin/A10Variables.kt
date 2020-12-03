@@ -1,5 +1,13 @@
 fun metodoVariables(){
 
+    // si cambia de valor var
+    var x = 7
+    var y: String = "my String"
+
+    // no cambia de valor val
+    val siempre = 5
+    val yy: String = "my String" // deberia un String ser val
+
     /*
     Long: 64 Bit
     Int: 32 Bit
@@ -15,27 +23,6 @@ fun metodoVariables(){
 
     val myInt = 600
     val myLong= myInt.toLong()
-
-    val myString = "Esto es un string de una sola línea."
-    val myLongString = """Esto es un string,
-de más de una línea."""
-
-    /*
-        \t: tabulador
-    \b: retroceso
-    \n: nueva línea
-    \r: salto de línea
-    \': comilla simple
-    \": comilla doble
-    \\: barra invertida
-    \$: símbolo del dólar
-
-     */
-
-    val author = "Sandra"
-    val myString2 = "El autor de este texto es $author"
-
-    var model22 = 'A'
 
     // arrayOf() o Array()
     // Alternatively, the arrayOfNulls() library function can be used to create an
