@@ -5,4 +5,6 @@ fun main(args: Array<String>) {
     imprimir()
     metodoVariables()
 
+    lugarDesdeDondeEjecutaPrograma()
+
 }
